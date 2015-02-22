@@ -79,3 +79,9 @@ Once server authenticates the user, it will send the proper **HTML** content(may
 
 10. AJAX queries
 Another form of client interaction with server is through AJAX(Asynchronous JavaScript And XML) requests. This is an asynchronous GET/POST request to which server can send a response back in a variety of ways - json, xml, html etc. AJAX requests doesn't hinder the current view of the webpage and work in the background. Because of this, one can dynamically modify the content of a webpage by calling an AJAX request and updating the web elements using Javascript.
+
+#### Sources used: [Edusagar] and [Pyechonest] just for the cat image.
+[Edusagar]: http://edusagar.com/
+[Pyechonest]: https://github.com/echonest/pyechonest/
+
+-![alt text](http://i.imgur.com/WWLYo.gif "Frustrated cat can't believe this is the 12th time he's clicked on an auto-linked README.md URL")
