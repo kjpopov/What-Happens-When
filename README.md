@@ -9,8 +9,8 @@ When we want to connect to hackbulgaria.com, we actually want to reach out to a 
 *Following is a summary of steps happening while DNS service is at work:*  
 **Check browser cache:** browsers maintain cache of DNS records for some fixed duration. So, this is the first place to resolve DNS queries.  
 **Check OS cache:** if browser doesn't contain the record in its cache, it makes a system call to underlying Operating System to fetch the record as OS also maintains a cache of recent DNS queries.  
-**Router Cache:** if above steps fail to get a DNS record, the search continues to your router which has its own cache.
-**ISP cache:** if everything fails, the search moves on to your ISP. First, it tries in its cache, if not found - ISP's DNS recursive search comes into picture. DNS lookup is again a complex process which finds the appropriate ip address from a list of many options available for large websites like Google.
+**Router Cache:** if above steps fail to get a DNS record, the search continues to your router which has its own cache.  
+**ISP cache:** if everything fails, the search moves on to your ISP. First, it tries in its cache, if not found - ISP's DNS recursive search comes into picture. DNS lookup is again a complex process which finds the appropriate ip address from a list of many options available for large websites like Google. In our case hackbulgaria.com has only one IP adress.
 
 4. Browser initiates a TCP connection with the server.
 
